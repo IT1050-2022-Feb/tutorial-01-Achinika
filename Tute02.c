@@ -34,7 +34,7 @@ int main(void) //main function execution begins
     amount = 30 * 50 + (distance - 30) * 40;
   
   //output
-  printf ("Your Total Rented Payment is %.2f", amount);
+  printf ("\n\nYour Total Rented Payment is %.2f", amount);
   
   
   return 0;
