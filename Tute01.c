@@ -20,7 +20,7 @@ int main(void) //main funtion execution begins
   scanf("%d", &mark);
   
   //calculations
-  avgMark = (mark + mark) /2;
+  avgMark = (mark + mark) /2.0;
   
   //output
   printf ("Your Average Mark for subject 1 and subject 2 are %.2f", avgMark);
