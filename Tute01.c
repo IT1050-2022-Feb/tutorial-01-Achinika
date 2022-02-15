@@ -6,16 +6,12 @@ Write a C program to input marks of two subjects. Calculate and print the averag
 int main(void) //main funtion execution begins
 {
   //variable declaration
-  int subject,mark;
+  int mark;
   float avgMark;
   
   //input
-  printf("\nEnter subject 01:");
-  scanf("%d", &subject);
   printf("\nEnter mark for subject 01: ");
   scanf("%d", &mark);
-  printf("\nEnter subject 02:");
-  scanf("%d", &subject);
   printf("\nEnter mark for subject 02: ");
   scanf("%d", &mark);
   
