@@ -19,7 +19,7 @@ int main(void) //main function execution begins
 {
   //variable declaration
   float distance;
-  int amount;
+  float amount;
   
   //input
   printf("Enter the distance the van has travelled: ");
