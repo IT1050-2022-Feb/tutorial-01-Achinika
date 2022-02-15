@@ -7,7 +7,10 @@ Do not change the code given in the main() function when you are implementing yo
 
 #include <stdio.h>
 
-int minimum (int num1, int num2), int maximum (int num1, int num2), int multiply (int num1, int num2); //funtion prototype
+int minimum (int num1, int num2);
+int maximum (int num1, int num2);
+int multiply (int num1, int num2); //funtion prototype
+
 int main(void) //main function execution begins
 {
    //local variable declaration
@@ -37,26 +40,30 @@ int main(void) //main function execution begins
 
 int minimum (int num1, int num2)
 {
-   if (num1 < num2)
+   if (num1 < num2) //calculation
    {
-     return minimum = num1;
+     minimum = num1;
    }
    else
-     return minimum = mum2;
+     minimum = mum2;
+   return minimum;
 } //end funtion 01
+
 int maximum (int num1, int num2)
 {
-   if (num1 < num2)
+   if (num1 < num2) //calculation
    {
-     return maximum = num1;
+      maximum = num1;
    }
    else
-     return maximum = mum2;
+      maximum = mum2;
+   return maximum;
 } //end funtion 02
+
 int multiply (int num1, int num2)
 {
-     return multiply = num1 * num2;
- 
+  multiply = num1 * num2;//calculation
+ return multiply;
 } //end funtion 03
    
    
