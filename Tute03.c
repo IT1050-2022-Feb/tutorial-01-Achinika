@@ -25,7 +25,7 @@ int main(void) //main program execution begins
   //calculations
   for ( i = 1; i <= no; i++ ) 
   {
-    sum += i;
+    sum = sum + i;
   } //for loop ends
   
   //output
