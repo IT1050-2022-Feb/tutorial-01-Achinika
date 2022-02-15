@@ -23,7 +23,7 @@ int main(void) //main program execution begins
   scanf (" %d ", &no );
   
   //calculations
-  for ( i = 1; i <= no; ++i ) 
+  for ( i = 1; i <= no; i++ ) 
   {
     sum += i;
   } //for loop ends
